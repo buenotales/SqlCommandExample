@@ -1,0 +1,13 @@
+CREATE DATABASE Learning;
+
+GO
+
+USE Learning;
+
+GO
+
+CREATE TABLE products(
+    id INT PRIMARY KEY IDENTITY,
+    name VARCHAR(45) NOT NULL,
+    price NUMERIC(8,2) NOT NULL,
+)
